@@ -1,0 +1,19 @@
+# Private keys - NEVER commit these
+keys/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment files with secrets
+.env
+.env.local
+.env.production
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
